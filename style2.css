@@ -1,0 +1,195 @@
+/*fonte*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body>footer ul {
+    list-style-type: none;
+}
+
+main {
+    max-width: 100%;
+}
+
+/*fonte*/
+body {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+/* Header */
+header {
+    background-color: #2E948A;
+    display: flex;
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    height: 117px;
+    max-width: 100%;
+    padding: 0%;
+    margin-top: 0%;
+}
+
+div>ul {
+    list-style-type: none;
+}
+
+div>ul>li {
+    display: inline;
+}
+
+div>ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding: 15px;
+}
+
+/* Header */
+
+/* main */
+/* flexbox 1 */
+.flexbox1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 47px;
+    line-height: 54px;
+
+color: #009688;
+}
+
+.section1 p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+/* flexbox2 - os 4 box- */
+
+.fileira1 {
+    max-width: 50%;
+    width: 50%;
+
+}
+
+.fileira2 {
+    max-width: 50%;
+    width: 50%;
+}
+
+.rectangle {
+    display: flex;
+    height: 15rem;
+    width: 100%;
+    background-color: #C4C4C4;
+    padding: 1%;
+
+}
+
+.texto {
+    margin-top: 10%;
+}
+
+.flexbox2 {
+    display: flex;
+    align-items: center;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    background-color: #E5E5E5;
+    max-width: fit-content;
+    align-content: space-between;
+    
+}
+
+
+
+.primeiro, .segundo, .terceiro, .quarto, .quinto, .sexto  {
+    padding: 4%;
+    max-height: 30%;
+    height: 30%;
+}
+
+.texto > h3 {
+    color: #FF4081;
+
+}
+
+
+
+/* footer */
+footer {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    background-color: #419488;
+    position: absolute;
+    border: 0%;
+    padding-top: 3%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer button {
+        position: relative;
+        top: 1%;
+    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 2.3rem;
+        text-align: center;
+        color: white;
+    
+        background: #2E948A;
+        border-radius: 6rem;
+        padding: 0.5rem 2rem;
+        border: 2px solid #FFFFFF;
+}
+
+.logo-footer {
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+
+/* footer */
