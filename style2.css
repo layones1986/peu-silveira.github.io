@@ -20,6 +20,7 @@ body {
     padding: 0;
     margin: 0 auto;
 }
+
 /* Header */
 header {
     background-color: #2E948A;
@@ -69,7 +70,7 @@ header ul li {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+
     padding-top: 10%;
     padding-bottom: 15%;
     padding-left: 15%;
@@ -83,7 +84,7 @@ h1 {
     font-size: 47px;
     line-height: 54px;
 
-color: #009688;
+    color: #009688;
 }
 
 .section1 p {
@@ -137,18 +138,23 @@ color: #009688;
     background-color: #E5E5E5;
     max-width: fit-content;
     align-content: space-between;
-    
+
 }
 
 
 
-.primeiro, .segundo, .terceiro, .quarto, .quinto, .sexto  {
+.primeiro,
+.segundo,
+.terceiro,
+.quarto,
+.quinto,
+.sexto {
     padding: 4%;
     max-height: 30%;
     height: 30%;
 }
 
-.texto > h3 {
+.texto>h3 {
     color: #FF4081;
 
 }
@@ -170,20 +176,20 @@ footer {
 }
 
 footer button {
-        position: relative;
-        top: 1%;
-    
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 2.3rem;
-        text-align: center;
-        color: white;
-    
-        background: #2E948A;
-        border-radius: 6rem;
-        padding: 0.5rem 2rem;
-        border: 2px solid #FFFFFF;
+    position: relative;
+    top: 1%;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.3rem;
+    text-align: center;
+    color: white;
+
+    background: #2E948A;
+    border-radius: 6rem;
+    padding: 0.5rem 2rem;
+    border: 2px solid #FFFFFF;
 }
 
 .logo-footer {
